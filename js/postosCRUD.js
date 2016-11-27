@@ -28,7 +28,7 @@ $(document).ready(function(){
     });
     
     selecionaLinha(aPostos);
-                    $('#divId').hide();
+    $('#divId').hide();
 });
 
 function atualizaTabela(aPostos){

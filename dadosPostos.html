@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <title>Sistema de Controle de Abastecimento - Cadastro de Postos</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/style.css">
+	<head>
+		<title>Sistema de Controle de Abastecimento - Dados de postos</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
         <script src="js/jquery.min.js"></script>
         <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
-        <script src="js/relatorio.js"></script>
-    </head>
-    <body>
+        <script src="js/dadosPostos.js"></script>
+	</head>
+	<body>
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
                 <a class="navbar-text" href="abastecimento.html">ABASTECIMENTO</a>
@@ -25,12 +25,9 @@
                 <table class="table table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>Data</th>
-                            <th>KM Rodado</th>
-                            <th>Litros</th>
-                            <th>Custo</th>
-                            <th>Valor Km/Litro</th>
-                            <th>Eficiencia</th>
+                            <th>Posto</th>
+                            <th>Total gasto</th>
+                            <th>Total abastecido</th>
                         </tr>
                     </thead>
                     <tbody id="tabela_corpo">
